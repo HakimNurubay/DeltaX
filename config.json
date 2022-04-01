@@ -1,0 +1,17 @@
+{
+  "token": "",
+  "topgg_token": "",
+  "owner": "864164903287652403",
+  "YoutubeApiKey": "",
+  "prefix": "",
+  "mongoPath": "",
+  "mainprefix": "",
+  "everyoneMention": false,
+  "hostedBy": true,
+  "chat": {
+    "url": "",
+    "bid": "",
+    "key": "",
+    "uid": ""
+  }
+}
