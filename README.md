@@ -8,7 +8,7 @@ First, fork the repository to your account.
 <br>
 Then clone the repository to your computer
 ```
-git clone https://github.com/your-username/DeltaX.git
+git clone https://github.com/HakimNurubay/DeltaX.git
 ```
 Install the required packages with NPM (Must have the NodeJS version 14 installed)
 ```
