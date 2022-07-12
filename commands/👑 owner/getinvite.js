@@ -17,12 +17,14 @@ module.exports = {
       const wrong = client.emojis.cache.find((x) => x.id === emoji.wrong);
       if (message.author.id == owner) {
         let guild = null;
+        
+        const input = args[0]
 
-        if (!args[0]) return message.channel.send("Enter the Name");
+        if (!input) return message.channel.send("Enter the Name");
 
-        if (args[0]) {
+        if (input) {
           let fetched = client.guilds.cache.find((g) => g.name === args.join(" "));
-          let found = client.guilds.cache.get(args[0]);
+          let found = client.guilds.cache.get(input);
           if (!found) {
             if (fetched) {
               guild = fetched;
