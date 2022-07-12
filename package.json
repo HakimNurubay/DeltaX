@@ -1,13 +1,14 @@
 {
   "name": "DeltaX",
   "version": "3.2.3",
-  "description": "copyrighted discord bot Hakim N.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Hakim Nurubay",
+  "license": "MIT",
   "dependencies": {
     "@discordjs/opus": "^0.6.0",
     "@discordjs/voice": "^0.7.2",
