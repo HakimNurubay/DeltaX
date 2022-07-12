@@ -1,5 +1,5 @@
 const { Webhook, MessageBuilder } = require("discord-webhook-node");
-const webhook = "https://discord.com/api/webhooks/946011247546105926/S_4z3ue4s1jq4Pfxdej0xP0hqI0X0TxxdNqQP9BE-tBOBvDjbhSNaRIdPmJg8Fu7KxqS";
+const webhook = "YOUR_WEBHOOK_LINK";
 const hook = new Webhook(webhook);
 const IMAGE_URL = "https://cdn.discordapp.com/avatars/864164903287652403/f4563668ff24bd18933b218f0392fe9d.png";
 const util = require("util");
