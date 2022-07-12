@@ -150,6 +150,7 @@ client.on("messageDelete", async (message, channel) => {
   });
 });
 
+// Static Button Reaction Roles
 client.on("clickButton", async (button, message, potentialPartialReaction, potentialPartialUser) => {
   if (button.id == "she") {
     const member = button.clicker.member;
